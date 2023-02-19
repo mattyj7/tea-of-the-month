@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+.container-list {
+    color: seashell;
+    max-width: 1000px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.flex {
+    align-items: center;
+}
