@@ -1,2 +1,2 @@
 # tea-of-the-month
-This is a mini progject for me to practice my CSS and html.
+This is a mini project for me to practice my CSS and html.
