@@ -2,15 +2,75 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: black;
+
+}
+
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    height: 69px;
+    color: white;
+}
+
+.header_list {
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+    right: 15px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
 }
 
 .container-list {
     color: seashell;
     text-align: center;
-    background-color: white;
     max-width: 1000px;
+    margin: auto;
+}
+
+.main {
+    margin-top: 69px;
+    margin: auto;
+    color: seashell;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main img {
+    display: block;
+    margin: auto;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 5rem;
+}
+.location img {
+    display: block;
+    margin: auto;
+    width: 95%;
 }
 
