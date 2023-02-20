@@ -11,12 +11,22 @@ img {
     height: auto;
 }
 
-body {
-    background-color: black;
-
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    background-color: black;
+    font-size: 22px;
+}
 
+.header a {
+    color: white;
+}
+
+.header a:hover {
+    color: grey;
+}
 .header {
     position: fixed;
     display: flex;
@@ -26,6 +36,8 @@ body {
     top: 0;
     height: 69px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
 }
 
 .header_list {
@@ -47,14 +59,15 @@ body {
     text-align: center;
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .main {
     margin-top: 69px;
-    margin: auto;
     color: seashell;
     text-align: center;
     margin-bottom: 3rem;
+    position: relative;
 }
 
 .main img {
@@ -62,12 +75,33 @@ body {
     margin: auto;
 }
 
-.container-img {
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    gap: 5rem;
+.figcaption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background-color: black;
 }
+
+.figcaption h2, h4 {
+    margin: 10px;
+}
+.container__img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.container__img figcaption {
+    margin-top: 10px;
+}
+
+ .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover {
+    opacity: 0.5;
+}
+
+
 .location img {
     display: block;
     margin: auto;
